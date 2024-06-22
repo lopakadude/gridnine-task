@@ -1,0 +1,77 @@
+.flight {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.flight__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: blue;
+  padding: 10px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.flight__body {
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.flight__transfer {
+  padding: 15px;
+}
+
+.flight__transfer:first-of-type::after {
+  position: absolute;
+  left: 0px;
+  content: '';
+  width: 100%;
+  height: 3px;
+  background-color: blue;
+  margin-top: 10px;
+}
+
+.flight__price {
+  text-align: end;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+
+.flight__quantity {
+  padding: 0;
+  margin: 0;
+}
+
+.flight__places {
+  padding: 0;
+  margin: 0;
+}
+
+.flight__airportUid {
+  color: blue;
+}
+
+.flight__timeWay {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flight__carrier {
+  padding: 0;
+  margin: 0;
+}
+
+.flight__submit {
+  border: none;
+  background-color: orange;
+  height: 50px;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 15px;
+}
